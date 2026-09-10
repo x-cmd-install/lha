@@ -12,6 +12,18 @@ LHa for UNIX - Note: This software is licensed under the ORIGINAL LICENSE. It is
 x install lha
 ```
 
+## Code insight
+
+Total: **10,358** lines of code across **41** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| C | 9,441 | 1,522 | 1,470 | 28 |
+| CHeader | 665 | 187 | 125 | 6 |
+| Autoconf | 143 | 21 | 28 | 1 |
+| Automake | 63 | 7 | 4 | 5 |
+| Sh | 46 | 18 | 13 | 1 |
+
 ## Source
 
 - **Upstream**: <https://github.com/jca02266/lha>
@@ -36,20 +48,21 @@ x install lha
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 1 | 0 | 0 | 1 | 2 |
 | 90d | 2026-06-12 | 0 | 1 | 0 | 0 | 1 | 2 |
+| last180d | 2026-03-14 | 0 | 1 | 0 | 0 | 1 | 2 |
 | 360d | 2025-09-15 | 0 | 2 | 0 | 1 | 1 | 8 |
+| last720d | 2024-09-20 | 0 | 8 | 1 | 5 | 2 | 23 |
 
-## Code size
+## Distribution status
 
-Total: **10,358** lines of code across **41** files in the top 5 languages.
+Reported by **67** distros on [repology.org](https://repology.org/project/lha). **29** are ✅ on the latest upstream release, **17** are ⚠️ on an older version.
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| C | 9,441 | 1,522 | 1,470 | 28 |
-| CHeader | 665 | 187 | 125 | 6 |
-| Autoconf | 143 | 21 | 28 | 1 |
-| Automake | 63 | 7 | 4 | 5 |
-| Sh | 46 | 18 | 13 | 1 |
+| Distro | Version | Status |
+|--------|---------|--------|
+| Nix unstable | `1.14i-unstable-2026-01-01` | untrusted |
+| Alpine edge | `1.14.20211125` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.14.1~git.20230329` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -60,4 +73,4 @@ Install metadata for lha lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:41:22Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:55:12Z._
