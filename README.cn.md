@@ -4,7 +4,7 @@
 
 LHa for UNIX - Note: This software is licensed under the ORIGINAL LICENSE. It is written in man/lha.n in Japanese(Translated: <https://packages.debian.org/changelogs/pool/non-free/l/lha/current/copyright>)
 
-![lha](https://repo.x-cmd.io/lha.svg)
+![lha](https://repo.x-cmd.io/lha.svg?lang=zh)
 
 ## 安装
 
@@ -60,4 +60,4 @@ lha 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:00:08Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:41:23Z._
