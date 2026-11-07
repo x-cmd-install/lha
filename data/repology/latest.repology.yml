@@ -1,16 +1,3 @@
-- repo: alpine_3_17
-  subrepo: community
-  srcname: lha
-  binname: lha-doc
-  visiblename: lha-doc
-  version: 1.14i
-  origversion: 1.14i-r4
-  status: newest
-  summary: Compression and archive utility for LH-7 format archives (documentation)
-  maintainers:
-    - rnalrd@alpinelinux.org
-  licenses:
-    - custom
 - repo: aix_osp
   srcname: lha
   visiblename: lha
@@ -20,6 +7,19 @@
 - repo: alpine_3_17
   subrepo: community
   srcname: lha
+  binname: lha-doc
+  visiblename: lha-doc
+  version: 1.14i
+  origversion: 1.14i-r4
+  status: newest
+  summary: Compression and archive utility for LH-7 format archives (documentation)
+  maintainers:
+    - rnalrd@alpinelinux.org
+  licenses:
+    - custom
+- repo: alpine_3_17
+  subrepo: community
+  srcname: lha
   binname: lha
   visiblename: lha
   version: 1.14i
@@ -56,6 +56,14 @@
     - rnalrd@alpinelinux.org
   licenses:
     - custom
+- repo: haikuports_master
+  srcname: app-arch/lha
+  visiblename: app-arch/lha
+  version: 1.14i.ac20211125
+  origversion: null
+  status: outdated
+  categories:
+    - app-arch
 - repo: alpine_3_19
   subrepo: community
   srcname: lha
@@ -186,6 +194,30 @@
     - rnalrd@alpinelinux.org
   licenses:
     - custom
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: lha
+  binname: lha
+  visiblename: lha
+  version: 1.14i
+  origversion: null
+  status: newest
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: lha
+  binname: lha
+  visiblename: lha
+  version: 114i
+  origversion: null
+  status: incorrect
+- repo: hpux_11_31
+  subrepo: ia64_32
+  srcname: lha
+  binname: lha
+  visiblename: lha
+  version: 114i
+  origversion: null
+  status: incorrect
 - repo: alpine_3_24
   subrepo: community
   srcname: lha
@@ -309,17 +341,6 @@
   summary: LHa for UNIX is a console-based utility that uncompresses and compresses .lha packages.
   licenses:
     - lha
-- repo: nix_stable_24_11
-  srcname: lha
-  visiblename: lha-unstable
-  version: "2021-01-07"
-  origversion: null
-  status: incorrect
-  summary: LHa is an archiver and compressor using the LZSS and Huffman encoding compression algorithms
-  maintainers:
-    - s.vanderburg@tudelft.nl
-  licenses:
-    - Unfree
 - repo: freebsd
   srcname: archivers/lha
   binname: lha
@@ -354,46 +375,6 @@
   summary: Pack Program
   licenses:
     - distributable, Other License(s), see package
-- repo: haikuports_master
-  srcname: app-arch/lha
-  visiblename: app-arch/lha
-  version: 1.14i.ac20211125
-  origversion: null
-  status: outdated
-  categories:
-    - app-arch
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: lha
-  binname: lha
-  visiblename: lha
-  version: 1.14i
-  origversion: null
-  status: newest
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: lha
-  binname: lha
-  visiblename: lha
-  version: 114i
-  origversion: null
-  status: incorrect
-- repo: hpux_11_31
-  subrepo: ia64_32
-  srcname: lha
-  binname: lha
-  visiblename: lha
-  version: 114i
-  origversion: null
-  status: incorrect
-- repo: hpux_11_31
-  subrepo: ia64_64
-  srcname: lha
-  binname: lha
-  visiblename: lha
-  version: 1.14i
-  origversion: null
-  status: newest
 - repo: liguros_stable
   srcname: app-arch/lha
   visiblename: app-arch/lha
@@ -479,6 +460,17 @@
   categories:
     - Archiving/Compression
 - repo: nix_stable_24_05
+  srcname: lha
+  visiblename: lha-unstable
+  version: "2021-01-07"
+  origversion: null
+  status: incorrect
+  summary: LHa is an archiver and compressor using the LZSS and Huffman encoding compression algorithms
+  maintainers:
+    - s.vanderburg@tudelft.nl
+  licenses:
+    - Unfree
+- repo: nix_stable_24_11
   srcname: lha
   visiblename: lha-unstable
   version: "2021-01-07"
@@ -601,17 +593,6 @@
     - Freeware-like
   categories:
     - Archiving/Compression
-- repo: openpkg_current
-  srcname: lha
-  visiblename: lha
-  version: 1.14i
-  origversion: null
-  status: newest
-  summary: Archiver using LZW Compression
-  licenses:
-    - PD
-  categories:
-    - Archiver
 - repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: lha
@@ -830,3 +811,11 @@
     - LicenseRef-Fedora-UltraPermissive AND BSD-4-Clause
   categories:
     - Unspecified
+- repo: hpux_11_31
+  subrepo: ia64_64
+  srcname: lha
+  binname: lha
+  visiblename: lha
+  version: 1.14i
+  origversion: null
+  status: newest
