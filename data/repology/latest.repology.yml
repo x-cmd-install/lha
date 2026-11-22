@@ -1,12 +1,3 @@
-- repo: chromebrew
-  srcname: lha
-  visiblename: lha
-  version: 86094cb
-  origversion: null
-  status: incorrect
-  summary: LHa for UNIX is a console-based utility that uncompresses and compresses .lha packages.
-  licenses:
-    - lha
 - repo: aix_osp
   srcname: lha
   visiblename: lha
@@ -309,6 +300,15 @@
   version: "1.14"
   origversion: null
   status: outdated
+- repo: chromebrew
+  srcname: lha
+  visiblename: lha
+  version: 86094cb
+  origversion: null
+  status: incorrect
+  summary: LHa for UNIX is a console-based utility that uncompresses and compresses .lha packages.
+  licenses:
+    - lha
 - repo: freebsd
   srcname: archivers/lha
   binname: lha
@@ -325,6 +325,19 @@
   srcname: app-arch/lha
   visiblename: app-arch/lha
   version: 114i_p20250112
+  origversion: null
+  status: incorrect
+  summary: Utility for creating and opening lzh archives
+  maintainers:
+    - chewi@gentoo.org
+  licenses:
+    - lha
+  categories:
+    - app-arch
+- repo: gentoo
+  srcname: app-arch/lha
+  visiblename: app-arch/lha
+  version: 114i_p20260723
   origversion: null
   status: incorrect
   summary: Utility for creating and opening lzh archives
@@ -399,6 +412,19 @@
 - repo: liguros_develop
   srcname: app-arch/lha
   visiblename: app-arch/lha
+  version: 114i_p20260723
+  origversion: null
+  status: incorrect
+  summary: Utility for creating and opening lzh archives
+  maintainers:
+    - chewi@gentoo.org
+  licenses:
+    - lha
+  categories:
+    - app-arch
+- repo: liguros_develop
+  srcname: app-arch/lha
+  visiblename: app-arch/lha
   version: 114i_p20250112
   origversion: null
   status: incorrect
@@ -437,18 +463,6 @@
     - Freeware-like
   categories:
     - Archiving/Compression
-- repo: pkgsrc_2026_2
-  srcname: archivers/lha
-  binname: lha
-  visiblename: archivers/lha
-  version: 114.9.20211125
-  origversion: 114.9.20211125nb1
-  status: incorrect
-  summary: Archive files using LZW compression (.lzh, .lha files)
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - archivers
 - repo: mageia_cauldron
   subrepo: core/release
   srcname: lha
@@ -561,6 +575,20 @@
     - Freeware-like
   categories:
     - Archiving/Compression
+- repo: rpmfusion_fedora_44
+  subrepo: nonfree/release
+  srcname: lha
+  binnames:
+    - lha
+  visiblename: lha
+  version: 1.14i
+  origversion: 1.14i-49.20230913git4f193b1.fc44
+  status: newest
+  summary: Archiving and compression utility for LHarc/lha/lzh archives
+  licenses:
+    - LicenseRef-Fedora-UltraPermissive AND BSD-4-Clause
+  categories:
+    - Unspecified
 - repo: openmandriva_rolling
   subrepo: main/release
   srcname: lha
@@ -646,6 +674,18 @@
   summary: An archiving and compression utility for LHarc format archives.
   categories:
     - Archiving/Compression
+- repo: pkgsrc_2026_2
+  srcname: archivers/lha
+  binname: lha
+  visiblename: archivers/lha
+  version: 114.9.20211125
+  origversion: 114.9.20211125nb1
+  status: incorrect
+  summary: Archive files using LZW compression (.lzh, .lha files)
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - archivers
 - repo: pkgsrc_2026_3
   srcname: archivers/lha
   binname: lha
@@ -769,20 +809,6 @@
   visiblename: lha
   version: 1.14i
   origversion: 1.14i-48.20230913git4f193b1.fc43
-  status: newest
-  summary: Archiving and compression utility for LHarc/lha/lzh archives
-  licenses:
-    - LicenseRef-Fedora-UltraPermissive AND BSD-4-Clause
-  categories:
-    - Unspecified
-- repo: rpmfusion_fedora_44
-  subrepo: nonfree/release
-  srcname: lha
-  binnames:
-    - lha
-  visiblename: lha
-  version: 1.14i
-  origversion: 1.14i-49.20230913git4f193b1.fc44
   status: newest
   summary: Archiving and compression utility for LHarc/lha/lzh archives
   licenses:
