@@ -314,7 +314,7 @@
   binname: lha
   visiblename: archivers/lha
   version: 1.14i
-  origversion: 1.14i_10
+  origversion: 1.14i_11
   status: newest
   summary: Archive files using LZSS and Huffman compression (.lzh files)
   maintainers:
