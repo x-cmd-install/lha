@@ -1,3 +1,38 @@
+- repo: nix_stable_24_11
+  srcname: lha
+  visiblename: lha-unstable
+  version: "2021-01-07"
+  origversion: null
+  status: incorrect
+  summary: LHa is an archiver and compressor using the LZSS and Huffman encoding compression algorithms
+  maintainers:
+    - s.vanderburg@tudelft.nl
+  licenses:
+    - Unfree
+- repo: nix_stable_25_05
+  srcname: lha
+  visiblename: lha
+  version: 1.14i-unstable-2024-11-27
+  origversion: null
+  status: untrusted
+  summary: LHa is an archiver and compressor using the LZSS and Huffman encoding compression algorithms
+  maintainers:
+    - s.vanderburg@tudelft.nl
+    - me@momee.mt
+  licenses:
+    - Unfree
+- repo: nix_stable_25_11
+  srcname: lha
+  visiblename: lha
+  version: 1.14i-unstable-2024-11-27
+  origversion: null
+  status: untrusted
+  summary: Archiver and compressor using the LZSS and Huffman encoding compression algorithms
+  maintainers:
+    - s.vanderburg@tudelft.nl
+    - me@momee.mt
+  licenses:
+    - Unfree
 - repo: aix_osp
   srcname: lha
   visiblename: lha
@@ -43,6 +78,17 @@
     - rnalrd@alpinelinux.org
   licenses:
     - custom
+- repo: nix_stable_26_05
+  srcname: lha
+  visiblename: lha
+  version: 1.14i-unstable-2024-11-27
+  origversion: null
+  status: untrusted
+  summary: Archiver and compressor using the LZSS and Huffman encoding compression algorithms
+  maintainers:
+    - me@momee.mt
+  licenses:
+    - Unfree
 - repo: alpine_3_18
   subrepo: community
   srcname: lha
@@ -173,6 +219,17 @@
     - rnalrd@alpinelinux.org
   licenses:
     - custom
+- repo: nix_unstable
+  srcname: lha
+  visiblename: lha
+  version: 1.14i-unstable-2026-01-01
+  origversion: null
+  status: untrusted
+  summary: Archiver and compressor using the LZSS and Huffman encoding compression algorithms
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Unfree
 - repo: alpine_3_23
   subrepo: community
   srcname: lha
@@ -319,6 +376,18 @@
   summary: Archive files using LZSS and Huffman compression (.lzh files)
   maintainers:
     - dinoex@freebsd.org
+  categories:
+    - archivers
+- repo: openbsd
+  srcname: archivers/lha
+  binname: lha
+  visiblename: archivers/lha
+  version: 1.14i.ac20230913
+  origversion: null
+  status: outdated
+  summary: archive files using LZW compression (.lzh files)
+  maintainers:
+    - yozo@v007.vaio.ne.jp
   categories:
     - archivers
 - repo: gentoo
@@ -488,75 +557,6 @@
     - s.vanderburg@tudelft.nl
   licenses:
     - Unfree
-- repo: nix_stable_24_11
-  srcname: lha
-  visiblename: lha-unstable
-  version: "2021-01-07"
-  origversion: null
-  status: incorrect
-  summary: LHa is an archiver and compressor using the LZSS and Huffman encoding compression algorithms
-  maintainers:
-    - s.vanderburg@tudelft.nl
-  licenses:
-    - Unfree
-- repo: nix_stable_25_05
-  srcname: lha
-  visiblename: lha
-  version: 1.14i-unstable-2024-11-27
-  origversion: null
-  status: untrusted
-  summary: LHa is an archiver and compressor using the LZSS and Huffman encoding compression algorithms
-  maintainers:
-    - s.vanderburg@tudelft.nl
-    - me@momee.mt
-  licenses:
-    - Unfree
-- repo: nix_stable_25_11
-  srcname: lha
-  visiblename: lha
-  version: 1.14i-unstable-2024-11-27
-  origversion: null
-  status: untrusted
-  summary: Archiver and compressor using the LZSS and Huffman encoding compression algorithms
-  maintainers:
-    - s.vanderburg@tudelft.nl
-    - me@momee.mt
-  licenses:
-    - Unfree
-- repo: nix_stable_26_05
-  srcname: lha
-  visiblename: lha
-  version: 1.14i-unstable-2024-11-27
-  origversion: null
-  status: untrusted
-  summary: Archiver and compressor using the LZSS and Huffman encoding compression algorithms
-  maintainers:
-    - me@momee.mt
-  licenses:
-    - Unfree
-- repo: nix_unstable
-  srcname: lha
-  visiblename: lha
-  version: 1.14i-unstable-2026-01-01
-  origversion: null
-  status: untrusted
-  summary: Archiver and compressor using the LZSS and Huffman encoding compression algorithms
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Unfree
-- repo: openbsd
-  srcname: archivers/lha
-  binname: lha
-  visiblename: archivers/lha
-  version: 1.14i.ac20230913
-  origversion: null
-  status: outdated
-  summary: archive files using LZW compression (.lzh files)
-  maintainers:
-    - yozo@v007.vaio.ne.jp
-  categories:
-    - archivers
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: lha
@@ -575,20 +575,6 @@
     - Freeware-like
   categories:
     - Archiving/Compression
-- repo: rpmfusion_fedora_44
-  subrepo: nonfree/release
-  srcname: lha
-  binnames:
-    - lha
-  visiblename: lha
-  version: 1.14i
-  origversion: 1.14i-49.20230913git4f193b1.fc44
-  status: newest
-  summary: Archiving and compression utility for LHarc/lha/lzh archives
-  licenses:
-    - LicenseRef-Fedora-UltraPermissive AND BSD-4-Clause
-  categories:
-    - Unspecified
 - repo: openmandriva_rolling
   subrepo: main/release
   srcname: lha
@@ -787,20 +773,6 @@
     - Freeware-like
   categories:
     - Archiving/Compression
-- repo: rpmfusion_fedora_42
-  subrepo: nonfree/release
-  srcname: lha
-  binnames:
-    - lha
-  visiblename: lha
-  version: 1.14i
-  origversion: 1.14i-45.20230913git4f193b1.fc41
-  status: newest
-  summary: Archiving and compression utility for LHarc/lha/lzh archives
-  licenses:
-    - LicenseRef-Fedora-UltraPermissive AND BSD-4-Clause
-  categories:
-    - Unspecified
 - repo: rpmfusion_fedora_43
   subrepo: nonfree/release
   srcname: lha
@@ -809,6 +781,20 @@
   visiblename: lha
   version: 1.14i
   origversion: 1.14i-48.20230913git4f193b1.fc43
+  status: newest
+  summary: Archiving and compression utility for LHarc/lha/lzh archives
+  licenses:
+    - LicenseRef-Fedora-UltraPermissive AND BSD-4-Clause
+  categories:
+    - Unspecified
+- repo: rpmfusion_fedora_44
+  subrepo: nonfree/release
+  srcname: lha
+  binnames:
+    - lha
+  visiblename: lha
+  version: 1.14i
+  origversion: 1.14i-49.20230913git4f193b1.fc44
   status: newest
   summary: Archiving and compression utility for LHarc/lha/lzh archives
   licenses:
